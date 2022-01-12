@@ -1,12 +1,12 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import { useNavigate } from "react-router-dom";
 
-const AuthContext = () => {
+export const AuthContext = createContext();
+
+export const AuthContextProvider = ({ children }) => {
     return (
-        <div>
-            
-        </div>
+        <AuthContext.Provider>
+            {children}
+        </AuthContext.Provider>
     )
 }
-
-export default AuthContext
