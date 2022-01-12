@@ -1,3 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .app {
   text-align: center;
+}
+
+.signin-bg {
+  background-image: linear-gradient(#4da9f5, #1479e6);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.signin-card {
+  height: 220px;
+  padding: 35px;
+  border-radius: 20px;
+  background-color: white;
+  border: solid 1px lightgray;
+}
+
+.signin-btn {
+  margin-top: 15px;
 }
