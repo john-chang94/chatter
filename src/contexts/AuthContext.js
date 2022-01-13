@@ -29,10 +29,11 @@ export const AuthContextProvider = ({ children }) => {
         const token = credential.accessToken;
 
         // The signed-in user info.
-        console.log(res.user);
-        console.log(token);
+        // console.log(res.user);
+        // console.log(token);
       })
       .catch((error) => {
+        console.log(error);
         // Handle Errors here.
         const errorCode = error.code;
         const errorMessage = error.message;

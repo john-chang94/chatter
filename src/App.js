@@ -10,7 +10,7 @@ import Chats from "./components/Chats";
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <AuthContextProvider>
         <Routes>
           <Route path="/" element={<SignIn />} />
